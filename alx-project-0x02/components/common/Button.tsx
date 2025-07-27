@@ -1,6 +1,7 @@
 // components/common/Button.tsx
 import React from "react";
 import { ButtonProps } from "@/interfaces";
+import Button from "@/components/common/Button";
 
 const Button: React.FC<ButtonProps> = ({
   label,
@@ -31,9 +32,9 @@ const Button: React.FC<ButtonProps> = ({
   `;
 
   return (
-    <button style={{ ...parseStyle(style) }} onClick={onClick}>
+    <Button style={{ ...parseStyle(style) }} onClick={onClick}>
       {label}
-    </button>
+    </Button>
   );
 };
 
