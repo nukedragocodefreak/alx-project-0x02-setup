@@ -1,4 +1,3 @@
-import Card from "@/components/common/Card";
 import React from "react";
 import UserCard from "@/components/common/UserCard";
 import { UserData } from "@/interfaces";
