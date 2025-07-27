@@ -4,9 +4,8 @@ import Header from "@/components/layout/Header";
 const Posts = () => {
   return (
     <div>
-      <header>
+      <Header />
       <h1>Posts Page</h1>
-      </header>
     </div>
   );
 };

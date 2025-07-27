@@ -17,6 +17,7 @@ const Home = () => {
 
   return (
     <div>
+     <Header />
       <h1>Welcome to the Home Page</h1>
 
       <button onClick={() => setShowModal(true)} style={{ marginBottom: "16px" }}>
