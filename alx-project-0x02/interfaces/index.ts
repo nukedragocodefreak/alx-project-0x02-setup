@@ -26,3 +26,4 @@ export interface UserProps {
     city: string;
     zipcode: string;
   }
+}
